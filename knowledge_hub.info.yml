@@ -1,0 +1,7 @@
+name: 'Knowledge Hub'
+type: module
+description: 'A module to manage knowledge articles with custom services.'
+package: Custom
+core_version_requirement: ^11
+dependencies:
+  - drupal:node

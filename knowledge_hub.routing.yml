@@ -1,0 +1,8 @@
+
+knowledge_hub.articles:
+  path: '/api/articles'
+  defaults:
+    _controller: 'Drupal\knowledge_hub\Controller\ArticleController::getArticles'
+    _format: 'json'
+  requirements:
+    _permission: 'access content'

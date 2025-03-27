@@ -1,0 +1,8 @@
+# Ignore Drupal temp/cache files
+*.log
+*.cache
+*.swp
+
+# Ignore dependency files (optional)
+vendor/
+node_modules/

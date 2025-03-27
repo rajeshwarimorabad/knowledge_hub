@@ -1,0 +1,4 @@
+services:
+  knowledge_hub.article_service:
+    class: 'Drupal\knowledge_hub\Service\ArticleService'
+    arguments: ['@entity_type.manager','@cache.default']
